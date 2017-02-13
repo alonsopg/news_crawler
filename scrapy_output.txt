@@ -1,0 +1,241 @@
+2016-12-20 13:42:01 [scrapy] INFO: Scrapy 1.2.0 started (bot: news_crawler)
+2016-12-20 13:42:01 [scrapy] INFO: Overridden settings: {'SPIDER_MODULES': ['news_crawler.spiders'], 'LOG_FILE': '../scrapy_output.txt', 'NEWSPIDER_MODULE': 'news_crawler.spiders', 'LOG_STDOUT': True, 'FEED_URI': 'file.csv', 'BOT_NAME': 'news_crawler', 'FEED_FORMAT': 'csv', 'ROBOTSTXT_OBEY': True}
+2016-12-20 13:42:01 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats']
+2016-12-20 13:42:01 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-20 13:42:01 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-20 13:42:01 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-12-20 13:42:01 [scrapy] INFO: Spider opened
+2016-12-20 13:42:01 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-20 13:42:01 [scrapy] DEBUG: Crawled (404) <GET http://www.eluniversal.com.mx/robots.txt> (referer: None)
+2016-12-20 13:42:01 [scrapy] DEBUG: Crawled (200) <GET http://www.eluniversal.com.mx/minuto-x-minuto> (referer: None)
+2016-12-20 13:42:01 [scrapy] DEBUG: Scraped from <200 http://www.eluniversal.com.mx/minuto-x-minuto>
+{'title': ["U.S. cities, counties plan immigrant legal aid after Trump's win",
+           'English',
+           'Asaltan y lastiman a tenista Petra Kvitova',
+           'Deportes',
+           'Jóvenes reciben apoyos económicos por trabajar en pista de hielo '
+           'de Zócalo ',
+           'Metrópoli',
+           'Así era Shakira a los 16 años',
+           'Espectáculos',
+           'Asesinan a dos policías estatales en SLP',
+           'Estados',
+           'La actriz Michèle Morgan muere a los 96 años',
+           'Espectáculos',
+           'MediaTek busca entrar en mercado automotriz',
+           'Techbit',
+           'Lanzan adelanto de "Emoji Movie"',
+           'Espectáculos',
+           'Recomiendan a "Bronco" tomar curso de perspectiva de género ',
+           'Estados',
+           'CCE vislumbra presiones en precios para 2017',
+           'Cartera',
+           'Fallece a los 62 años el pintor "El Hortelano"',
+           'Cultura',
+           'Mantienen operativo para detener a “El Tequilero”',
+           'Estados',
+           'Policía investiga homicidios en Venustiano Carranza y Álvaro '
+           'Obregón',
+           'Metrópoli',
+           'Observan por primera vez espectro de luz de antimateria',
+           'Ciencia y Salud',
+           'Prevén que fiestas decembrinas dejen al comercio 424 mil mdp']}
+2016-12-20 13:42:01 [scrapy] INFO: Closing spider (finished)
+2016-12-20 13:42:01 [scrapy] INFO: Stored csv feed (1 items) in: file.csv
+2016-12-20 13:42:01 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 527,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 14659,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 20, 19, 42, 1, 764830),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 8,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 12, 20, 19, 42, 1, 158708)}
+2016-12-20 13:42:01 [scrapy] INFO: Spider closed (finished)
+2016-12-20 13:42:38 [scrapy] INFO: Scrapy 1.2.0 started (bot: news_crawler)
+2016-12-20 13:42:38 [scrapy] INFO: Overridden settings: {'BOT_NAME': 'news_crawler', 'LOG_STDOUT': True, 'LOG_FILE': '../scrapy_output.txt', 'FEED_URI': 'file.csv', 'SPIDER_MODULES': ['news_crawler.spiders'], 'NEWSPIDER_MODULE': 'news_crawler.spiders', 'ROBOTSTXT_OBEY': True, 'FEED_FORMAT': 'csv'}
+2016-12-20 13:42:38 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats']
+2016-12-20 13:42:38 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-20 13:42:38 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-20 13:42:38 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-12-20 13:42:38 [scrapy] INFO: Spider opened
+2016-12-20 13:42:38 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-20 13:42:38 [scrapy] DEBUG: Crawled (200) <GET http://www.eluniversal.com.mx/robots.txt> (referer: None)
+2016-12-20 13:42:38 [scrapy] DEBUG: Crawled (404) <GET http://www.eluniversal.com.mx/minuto-x-minuto> (referer: None)
+2016-12-20 13:42:38 [scrapy] DEBUG: Ignoring response <404 http://www.eluniversal.com.mx/minuto-x-minuto>: HTTP status code is not handled or not allowed
+2016-12-20 13:42:38 [scrapy] INFO: Closing spider (finished)
+2016-12-20 13:42:38 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 527,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 1564,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 20, 19, 42, 38, 664513),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 12, 20, 19, 42, 38, 346825)}
+2016-12-20 13:42:38 [scrapy] INFO: Spider closed (finished)
+2016-12-20 13:42:48 [scrapy] INFO: Scrapy 1.2.0 started (bot: news_crawler)
+2016-12-20 13:42:48 [scrapy] INFO: Overridden settings: {'FEED_FORMAT': 'csv', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'news_crawler.spiders', 'ROBOTSTXT_OBEY': True, 'FEED_URI': 'file.csv', 'BOT_NAME': 'news_crawler', 'SPIDER_MODULES': ['news_crawler.spiders'], 'LOG_FILE': '../scrapy_output.txt'}
+2016-12-20 13:42:48 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.feedexport.FeedExporter']
+2016-12-20 13:42:48 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-20 13:42:48 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-20 13:42:48 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-12-20 13:42:48 [scrapy] INFO: Spider opened
+2016-12-20 13:42:48 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-20 13:42:48 [scrapy] DEBUG: Crawled (200) <GET http://www.eluniversal.com.mx/robots.txt> (referer: None)
+2016-12-20 13:42:48 [scrapy] DEBUG: Crawled (404) <GET http://www.eluniversal.com.mx/minuto-x-minuto> (referer: None)
+2016-12-20 13:42:48 [scrapy] DEBUG: Ignoring response <404 http://www.eluniversal.com.mx/minuto-x-minuto>: HTTP status code is not handled or not allowed
+2016-12-20 13:42:48 [scrapy] INFO: Closing spider (finished)
+2016-12-20 13:42:48 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 527,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 1564,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 20, 19, 42, 48, 825223),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 12, 20, 19, 42, 48, 497805)}
+2016-12-20 13:42:48 [scrapy] INFO: Spider closed (finished)
+2016-12-20 13:44:01 [scrapy] INFO: Scrapy 1.2.0 started (bot: news_crawler)
+2016-12-20 13:44:01 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'news_crawler.spiders', 'BOT_NAME': 'news_crawler', 'LOG_STDOUT': True, 'SPIDER_MODULES': ['news_crawler.spiders'], 'LOG_FILE': '../scrapy_output.txt', 'ROBOTSTXT_OBEY': True, 'FEED_FORMAT': 'csv', 'FEED_URI': 'file.csv'}
+2016-12-20 13:44:01 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2016-12-20 13:44:01 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-20 13:44:01 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-20 13:44:01 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-12-20 13:44:01 [scrapy] INFO: Spider opened
+2016-12-20 13:44:01 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-20 13:44:03 [scrapy] DEBUG: Crawled (200) <GET http://www.eluniversal.com.mx/robots.txt> (referer: None)
+2016-12-20 13:44:03 [scrapy] DEBUG: Crawled (404) <GET http://www.eluniversal.com.mx/minuto-x-minuto> (referer: None)
+2016-12-20 13:44:03 [scrapy] DEBUG: Ignoring response <404 http://www.eluniversal.com.mx/minuto-x-minuto>: HTTP status code is not handled or not allowed
+2016-12-20 13:44:03 [scrapy] INFO: Closing spider (finished)
+2016-12-20 13:44:03 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 527,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 1564,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 20, 19, 44, 3, 895426),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 12, 20, 19, 44, 1, 419222)}
+2016-12-20 13:44:03 [scrapy] INFO: Spider closed (finished)
